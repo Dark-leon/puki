@@ -10,7 +10,7 @@ general_6 : "Bot sesli sohbette yayın yapmıyor."
 
 # Classes - Telegram.py
 tg_1 : "Bot şu anda indirilenlerle **aşırı yüklenmiş**.\n\n**Deneme Süresi:** {0} (__beklenen süre__))"
-tg_2 : "Failed to download the media from telegram."
+tg_2 : "Medya telgraftan indirilemedi."
 
 # Core - Call.py
 call_1 : "Bot, asistan hesabını kanalınıza davet etmek için **Yönetici** İzni gerektirir.\n\nKanal oynatma modunu şununla devre dışı bırakın: : /playmode"
@@ -217,18 +217,18 @@ queue_3 : "<u>**Queued Tracks:</u>**  [Checkout More Queued Tracks From Here]({0
 queue_4 : "⏳ Sıraya eklendi **#{0}\n\n🔘Başlık:** {1}\n**⏱Süre:** {2}\n👉**Talep Eden:** {3}"
 
 # All Streaming Lines
-stream_1 : "📡 **Yayın Başladı**\n\n👉**Talep Eden:** {0}\n🔦**Bilgi: **[Buradan]({1})"
-stream_2 : "📡 **URL ile Yayına Başladı **\n\n👉**Talep Eden:** {0}"
-stream_3 : "📡 **Yayın Başladı**\n\n**🔘Başlık:** {0}\n⌛️**Süre**: {1}\n👤**İsteyen:** {2}"
-stream_4 : "📡 **Akış Başlatıldı**\n\n**🔘Başlık:** [{0}]({1})\n⌛️**Süre**: {2}\n👤**İsteyen:** {3}"
+stream_1 : "🔊 **Yayın Başladı**\n\n👉**Talep Eden:** {0}\n🔦**Bilgi: **[Buradan]({1})"
+stream_2 : "🔊 **URL ile Yayına Başladı **\n\n👉**Talep Eden:** {0}"
+stream_3 : "🔊 **Yayın Başladı**\n\n**🔘Başlık:** {0}\n⌛️**Süre**: {1}\n👤**İsteyen:** {2}"
+stream_4 : "🔊 **Akış Başlatıldı**\n\n**🔘Başlık:** [{0}]({1})\n⌛️**Süre**: {2}\n👤**İsteyen:** {3}"
 
 # Inline Buttons
 
 #General Buttons
-CLOSE_BUTTON  : "🗑 Kapat"
-CLOSEMENU_BUTTON  : "🗑 Menüyü Kapat"
+CLOSE_BUTTON  : "📲 Kapat"
+CLOSEMENU_BUTTON  : "📲 Menüyü Kapat"
 BACK_BUTTON : "⬅ Geri"
-UNBAN_BUTTON : "🗑 Asistanın yasağını kaldır"
+UNBAN_BUTTON : "🔊 Asistanın yasağını kaldır"
 
 #Lyrics
 L_B_1 : "🚀 Şarkı Sözlerini Şimdi Kontrol Et"
@@ -244,11 +244,11 @@ S_B_7 : "👤 Bot Owner"
 S_B_8 : "🔎 Nasıl kullanılır? Komutlar Menüsü."
 
 #Help 
-H_B_1 : "Admin Commands"
+H_B_1 : "Yönetici Komutları"
 H_B_2 : "Play Commands"
-H_B_3 : "Bot Commands"
-H_B_4 : "Extra Commands"
-H_B_5 : "Close Menu"
+H_B_3 : "Bot Komutları"
+H_B_4 : "Ekstra Komutlar"
+H_B_5 : "Menüyü Kapat"
 
 #PlayMode
 PM_B_1 : "DirectPlay"
@@ -256,31 +256,31 @@ PM_B_2 : "InlineMarkup"
 PM_B_3 : "ChannelPlay"
 
 #Play
-P_B_1 : "🎵 Play Audio"
-P_B_2 : "🎥 Play Video"
-P_B_3 : "🏮 Start Live Stream"
-P_B_4 : "🎵 Play Playlist"
+P_B_1 : "🎵 Oynat"
+P_B_2 : "🎥 Video İzle"
+P_B_3 : "🏮 Yayını Başlat"
+P_B_4 : "🎵 Çalma Listesi"
 
 #Playlist
-PL_B_1 : "🚀 Play Playlist"
-PL_B_2 : "✚ Playlists"
-PL_B_3 : "✚ Additional"
-PL_B_4 : "📡 Play Mode"
-PL_B_5 : "🔄 Del Whole Playlist"
+PL_B_1 : "🚀 Çalma Listesi"
+PL_B_2 : "✚ Çalma listeleri"
+PL_B_3 : "✚ Panel"
+PL_B_4 : "📡 Çalma Modu"
+PL_B_5 : "🔄 Del Tüm Çalma Listesi"
 PL_B_6 : "↗️ Delete Playlist"
-PL_B_7 : "❗️ Yes, I'm sure. Delete it"
-PL_B_8 : "🔢 Play Top 10"
-PL_B_9 : "🤖 Play Global Top 10 Tracks"
-PL_B_10 : "🏘 Play Group's Top 10 Tracks"
-PL_B_11 : "👤 Play Personal Top 10 Tracks"
+PL_B_7 : "❗️ Evet, eminim. Sil"
+PL_B_8 : "🔢 Top 10'u Oynat"
+PL_B_9 : "🤖 Global Top 10 Parçalarını Çal"
+PL_B_10 : "🏘 Play Group'un En İyi 10 Parçası"
+PL_B_11 : "👤 Kişisel En İyi 10 Parçayı Çal"
 
 #Settings
-ST_B_1 : "🔊 Aud Quality"
-ST_B_2 : "🎥 Vid Quality"
+ST_B_1 : "🔊 Aud Kalitesi"
+ST_B_2 : "🎥 Vid Kalitesi"
 ST_B_3 : "🎩 Auth Users"
-ST_B_4 : "📱 Dashboard"
-ST_B_5 : "▶️ Play Mode"
-ST_B_6 : "🏳️‍🌈 Language"
+ST_B_4 : "📱 Tablo"
+ST_B_5 : "▶️ Müzik 66Modu"
+ST_B_6 : "🏳️‍🌈 Dil"
 ST_B_7 : "🔄 Clean Mode"
 ST_B_8 : "{0} Low Quality Audio"
 ST_B_9 : "{0} Medium Quality Audio"
@@ -326,7 +326,7 @@ sudo_1 : "{0} zaten bir sudo kullanıcısı."
 sudo_2 : "Sudo Kullanıcılarına **{0}** eklendi." 
 sudo_3 : "Bot'un Sudo'sunun bir parçası değil."
 sudo_4 : "Bot'un Sudo Kullanıcısından kaldırıldı"
-sudo_5 : "⭐️<u> **Owners:**</u>\n"
+sudo_5 : "⭐️<u> **Sahiplerinin 66:**</u>\n"
 sudo_6 : "\n⭐️<u> **Sudo Users:**</u>\n"
 sudo_7 : "Sudo Kullanıcısı Yok"
 
