@@ -53,6 +53,16 @@
         "value": "",
         "required": true
       },
+      "STRING_SESSIO1": {
+        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "value": "",
+        "required": true
+      },
+      "STRING_SESSIO2": {
+        "description": "A Pyrogram String Session. One Assistant is Compulsory.",
+        "value": "",
+        "required": true
+      },
       "HEROKU_API_KEY": {
         "description": "Your Heroku account's API key",
         "value": "",
