@@ -53,12 +53,12 @@
         "value": "",
         "required": true
       },
-      "STRING_SESSIO1": {
+      "STRING_SESSIO2": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
       },
-      "STRING_SESSIO2": {
+      "STRING_SESSIO3": {
         "description": "A Pyrogram String Session. One Assistant is Compulsory.",
         "value": "",
         "required": true
@@ -80,7 +80,7 @@
       },
       "UPSTREAM_REPO": {
         "description": "If you dont know this, Leave as it is",
-        "value": "https://github.com/TeamYukki/YukkiMusicBot",
+        "value": "https://github.com/Pulsar8806/Puki",
         "required": true
       },
       "UPSTREAM_BRANCH": {
