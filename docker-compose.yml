@@ -18,4 +18,3 @@ services:
       UPSTREAM_REPO: $UPSTREAM_REPO
       UPSTREAM_BRANCH: $UPSTREAM_BRANCH
 
-      
