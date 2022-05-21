@@ -1,4 +1,4 @@
-pyrogram==1.4.9
+pyrogram==1.4.12 
 aiofiles
 aiohttp
 asyncio
@@ -9,7 +9,7 @@ hachoir
 heroku3
 lyricsgenius
 motor
-pillow==9.1.0
+pillow
 psutil
 py-tgcalls==0.8.6
 pykeyboard
