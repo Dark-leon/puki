@@ -1,3 +1,4 @@
+pyrogram==1.4.16
 aiofiles
 aiohttp
 asyncio
@@ -8,11 +9,10 @@ hachoir
 heroku3
 lyricsgenius
 motor
-pillow
+pillow==9.1.0
 psutil
-py-tgcalls==0.8.5
+py-tgcalls==0.8.2
 pykeyboard
-Pyrogram==1.4.1
 python-dotenv
 pyyaml==5.3.1
 requests
